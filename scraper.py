@@ -67,10 +67,10 @@ for chat in chats:
 print(gr+'[+] Choose a group to scrape members :'+re)
 i=0
 for g in groups:
-    print(gr+'['+cy+str(i)+gr+']'+cy+' - '+ OFFER OF WORLD)
+    print(gr+'['+cy+str(i)+gr+']'+cy+' - '+ g.title)
     i+=1
  
-print('its is working')
+print('')
 g_index = input(gr+"[+] Enter a Number : "+re)
 target_group=groups[int(g_index)]
  
