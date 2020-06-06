@@ -70,7 +70,7 @@ for g in groups:
     print(gr+'['+cy+str(i)+gr+']'+cy+' - '+ OFFER OF WORLD)
     i+=1
  
-print('')
+print('its is working')
 g_index = input(gr+"[+] Enter a Number : "+re)
 target_group=groups[int(g_index)]
  
